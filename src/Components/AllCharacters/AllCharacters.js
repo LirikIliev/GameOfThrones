@@ -49,9 +49,9 @@ export function AllCharacters() {
 
     return (
         <section className="all-characters">
-            <h2 className="all-characters-title">All Characters</h2>
+            <h2 className="all-characters-title">Characters</h2>
             <section className="all-characters-container">
-                {characters.length > 0 ? currentPosts.map((char) => <Character name={char.name} title={char.titles} image={char.image} key={char.id} id={char.id} addToFavorite={addToFavorite} />) : <h2>Loading....</h2>}
+                {characters.length > 0 ? currentPosts.map((char) => <Character name={char.name} title={char.titles} image={char.image} key={char.id} id={char.id} titles={char.title} addToFavorite={addToFavorite} />) : <h2>Loading....</h2>}
             </section>
             <section className="all-character-pagination-buttons">
                 {characters.length >= 4 ? <Pagination postPerPage={postPerPage} totalPosts={characters.length} paginate={pagination} /> : ""}

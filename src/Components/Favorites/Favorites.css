@@ -1,12 +1,12 @@
 body main.main-container section.favorite-characters {
   display: flex;
   flex-direction: column;
-  background: rgba(168, 168, 168, 0.7);
+  background: rgba(255, 255, 255, 0.28);
   background-image: url("../../../public/section-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 37%;
-  border: 3px solid darkgray;
+  border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   box-shadow: 12px 12px 25px -18px;
   margin: 0 0 20px 0;
@@ -26,15 +26,24 @@ body
   main.main-container
   section.favorite-characters
   section.characters-container
+  p {
+  font-size: 20px;
+  font-weight: bold;
+}
+body
+  main.main-container
+  section.favorite-characters
+  section.characters-container
   article.character {
   display: flex;
   flex-direction: column;
   gap: 10px;
   border: 2px solid darkgray;
-  background: rgba(169, 169, 169, 0.9);
+  background: rgb(237 237 237);
   border-radius: 10px;
   box-shadow: 12px 12px 25px -18px;
   padding: 5px;
+  max-width: 400px;
 }
 body
   main.main-container
@@ -63,7 +72,7 @@ body
   max-width: 300px;
   max-height: 400px;
   margin: 0 20px;
-  border: 8px solid gray;
+  border: 8px solid #f2f2f2;
   border-radius: 10px;
   align-self: center;
 }
@@ -78,7 +87,7 @@ body
   width: 140px;
   height: 35px;
   border-radius: 14px;
-  background: #970000;
+  background: #a30202;
   color: white;
   text-align: center;
   font-weight: bolder;

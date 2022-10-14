@@ -7,10 +7,6 @@ export function Pagination({ postPerPage, totalPosts, paginate }) {
 
     return (
         <nav className="pagination-nav">
-            <aside>
-                <p>Previous</p>
-                <p>Next</p>
-            </aside>
             <ul className="pagination">
                 {pageNumber.map(number => {
                     return (<li key={number} className='page-item'>
