@@ -10,6 +10,7 @@ body main.main-container section.favorite-characters {
   border-radius: 10px;
   box-shadow: 12px 12px 25px -18px;
   margin: 0 0 20px 0;
+  min-height: 740px;
 }
 body main.main-container section.favorite-characters h2.favorites {
   text-align: center;

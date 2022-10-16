@@ -35,7 +35,7 @@ export function Favorites(params) {
 
     return (
         <section className="favorite-characters">
-            <h2 className="favorites">Favorites</h2>
+            <h2 className="favorites">Favorite</h2>
             <section className="characters-container">
                 {favoriteCharacters.length > 0 ? currentPosts.map(char => <Character key={char.id} name={char.name} title={char.titles} image={char.image} id={char.id} removeFromFavorite={removeFromFavorite} />) : <p>You haven't favorites characters yet!</p>}
             </section>

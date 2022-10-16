@@ -10,6 +10,7 @@ body main.main-container section.all-characters {
   border-radius: 10px;
   box-shadow: 12px 12px 25px -18px;
   margin: 0 0 20px 0;
+  min-height: 740px;
 }
 body main.main-container section.all-characters h2.all-characters-title {
   text-align: center;
@@ -185,4 +186,15 @@ body
   a {
   text-decoration: none;
   color: black;
+}
+
+body
+  main.main-container
+  section.all-characters
+  section.all-character-pagination-buttons
+  nav
+  ul
+  li
+  a:active {
+  color: red;
 }
