@@ -65,9 +65,10 @@ body
   max-width: 300px;
   max-height: 400px;
   margin: 0 20px;
-  border: 8px solid #f2f2f2;
+  border: 8px solid #d4d3d3;
   border-radius: 10px;
   align-self: center;
+  box-shadow: 2px 2px 6px;
 }
 body
   main.main-container
@@ -85,6 +86,7 @@ body
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
+  box-shadow: 1px 3px 4px -1px #171717;
 }
 body
   main.main-container
@@ -94,15 +96,15 @@ body
   button:hover {
   border: 3px solid #555;
   border-radius: 15px;
-  box-shadow: 5px 2px 9px -3px #00ffea;
+  box-shadow: 5px 2px 8px -3px #218321;
 }
 body
   main.main-container
   section.all-characters
   section.all-characters-container
   article.character
-  button:hover:active {
-  box-shadow: 5px 2px 9px -3px #00d9ff;
+  button:active {
+  box-shadow: 5px 2px 9px -3px #00ff0d;
 }
 body
   main.main-container
@@ -164,7 +166,7 @@ body
   li:hover {
   border: none;
   border-radius: 8px;
-  box-shadow: 5px 2px 9px -3px #ff9100;
+  box-shadow: 5px 2px 9px -3px #1f1f1f;
 }
 body
   main.main-container
@@ -173,7 +175,7 @@ body
   nav
   ul
   li:active {
-  box-shadow: 5px 2px 9px -3px #00c3ff;
+  box-shadow: 5px 2px 9px -3px #019214;
 }
 
 body
@@ -186,15 +188,4 @@ body
   a {
   text-decoration: none;
   color: black;
-}
-
-body
-  main.main-container
-  section.all-characters
-  section.all-character-pagination-buttons
-  nav
-  ul
-  li
-  a:active {
-  color: red;
 }

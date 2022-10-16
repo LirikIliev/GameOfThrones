@@ -76,6 +76,7 @@ body
   border: 8px solid #f2f2f2;
   border-radius: 10px;
   align-self: center;
+  box-shadow: 2px 2px 6px;
 }
 body
   main.main-container
@@ -93,6 +94,7 @@ body
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
+  box-shadow: 1px 3px 4px -1px #171717;
 }
 body
   main.main-container
@@ -102,7 +104,7 @@ body
   button:hover {
   border: 3px solid #555;
   border-radius: 15px;
-  box-shadow: 5px 2px 9px -3px #ff5e00;
+  box-shadow: 5px 2px 9px -3px #8b0202;
 }
 body
   main.main-container
@@ -110,7 +112,7 @@ body
   section.characters-container
   article.character
   button:hover:active {
-  box-shadow: 5px 2px 9px -3px #00d9ff;
+    box-shadow: 5px 2px 9px -3px #ff0000;
 }
 body
   main.main-container
@@ -173,7 +175,7 @@ body
   li:hover {
   border: none;
   border-radius: 8px;
-  box-shadow: 5px 2px 9px -3px #ff9100;
+  box-shadow: 5px 2px 9px -3px #1f1f1f;
 }
 body
   main.main-container
@@ -182,7 +184,7 @@ body
   nav
   ul
   li:active {
-  box-shadow: 5px 2px 9px -3px #00c3ff;
+  box-shadow: 5px 2px 9px -3px #019214;
 }
 
 body
